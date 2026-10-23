@@ -1,8 +1,7 @@
 
-
 public class StringImmutabilityExample {
     public static void main(String[] args) {
-        
+
         // Method 1: String literals
         String str1 = "Java";
         String str2 = "Java";
@@ -30,5 +29,5 @@ public class StringImmutabilityExample {
         System.out.println("Method 5. str3 == str4: "
                 + (str3 == str4));
     }
-    
 }
+
